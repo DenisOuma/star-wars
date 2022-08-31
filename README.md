@@ -2,7 +2,7 @@
 
 # Project Name
 
-    AgriPlus
+Star Wars
 
 ## Authors Name
 
@@ -17,7 +17,37 @@
 
 ## General info
 
-This project is an online store for the AgriPlus agricultural cooperative, which gives farmers a platform to connect with consumers across the nation and sell or buy their produce while interacting with them to produce high-quality produce. Users can register and create an account, from which they can buy and order agricultural products from the growers. The page also has a description of some of their services, a contact form, and an additional form that allows users to sign up for Agriplus's newsletter to receive notifications of any interesting farming bargains or offers. This facilitates communication with both customers and farmers.
+This project is an online store where users can buy star wars ships, The project is designed like a eccomers website where users are able to login into their own accounts, they can search for a ship, and alsio add to cat.
+
+## Log in Details
+
+First User:
+
+     1.  kylee@gmail.com
+        Password:  denis
+
+Second User:
+
+    2. denis@gmail.com
+        Password:  denis
+
+## How to Use the Website
+
+### stem 1: Use any username to log in, as seen in the image below.
+
+<img src="./images/Screenshot from 2022-08-31 23-27-25.png" width="800px"/>
+
+### step 2: You will be taken to the main page after logging in where you can search for a space ship and see the cart dialog.
+
+<img src="./images/Screenshot from 2022-08-31 23-43-09.png" width="900px"/>
+
+### step 3: There is a list of star warship click on see details to view more about a ship.
+
+<img src="./images/Screenshot from 2022-08-31 23-43-58.png" width="900px"/>
+
+### step 4: You'll be taken to this page if you click the cart to view your cart on the navigation bar.
+
+<img src="./images/Screenshot from 2022-08-31 23-44-56.png" width="900px"/>
 
 ## Technologies
 
@@ -26,6 +56,7 @@ This project is an online store for the AgriPlus agricultural cooperative, which
         - HTML - Is used to build the structure of the pages.
         - CSS - Is used to style the pages
         - Google Fonts and Icons - Is used to impliment the icons and the fonts on the page
+        - JavaScript - Functionality of the website includes, click events and search.
 
 ## Requirements
 
@@ -33,7 +64,7 @@ This project is an online store for the AgriPlus agricultural cooperative, which
 
 ## Program Setup
 
-To run this project, clone or download it from git hub. Using Live server or your developers environment(Text Editor), start the server using Live server extention
+To run this project, clone or download it from git hub. Using Live server or your developers environment(Text Editor), start the server using Live server extention and automatically the website will work.
 
 ## Contact
 
@@ -46,7 +77,7 @@ https://www.linkedin.com/in/denisouma/
 
 The webpage address:
 
-https://denisouma.github.io/agri-plus/
+https://denisouma.github.io/star-wars/
 
 ## License information
 

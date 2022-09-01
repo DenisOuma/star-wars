@@ -53,8 +53,11 @@ img {
 }
 .login-card .card-body {
 	padding: 85px 60px 60px;
-	margin-top: 300px;
+	/* margin-top: 300px; */
 }
+/* .card-body {
+	margin-top: 200px;
+} */
 @media (max-width: 422px) {
 	.login-card .card-body {
 		padding: 35px 24px;

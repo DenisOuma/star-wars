@@ -70,32 +70,32 @@ async function getShip(url) {
 						
                 `;
 		});
-		cardDiv.innerHTML = list;
-		document.getElementById("next").addEventListener("click", function () {
-			list = "";
-			jsonData.results = [];
+// 		cardDiv.innerHTML = list;
+// 		document.getElementById("next").addEventListener("click", function () {
+// 			list = "";
+// 			jsonData.results = [];
 
-			getShip(jsonData.next);
-		});
-		document.getElementById("prev").addEventListener("click", function () {
-			list = "";
-			jsonData.results = [];
+// 			getShip(jsonData.next);
+// 		});
+// 		document.getElementById("prev").addEventListener("click", function () {
+// 			list = "";
+// 			jsonData.results = [];
 
-			getShip(jsonData.previous);
-		});
-		if (!jsonData.previous) {
-			document.getElementById("prev").disabled = true;
-		} else {
-			document.getElementById("prev").disabled = false;
-		}
-		if (!jsonData.next) {
-			document.getElementById("next").disabled = true;
-		} else {
-			document.getElementById("next").disabled = false;
-		}
-	} catch (error) {
-		console.log(error);
-	}
-}
+// 			getShip(jsonData.previous);
+// 		});
+// 		if (!jsonData.previous) {
+// 			document.getElementById("prev").disabled = true;
+// 		} else {
+// 			document.getElementById("prev").disabled = false;
+// 		}
+// 		if (!jsonData.next) {
+// 			document.getElementById("next").disabled = true;
+// 		} else {
+// 			document.getElementById("next").disabled = false;
+// 		}
+// 	} catch (error) {
+// 		console.log(error);
+// 	}
+// }
 
 getShip(`https://swapi.dev/api/starships/`);

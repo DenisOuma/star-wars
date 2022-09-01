@@ -53,6 +53,7 @@ img {
 }
 .login-card .card-body {
 	padding: 85px 60px 60px;
+	margin-top: 300px;
 }
 @media (max-width: 422px) {
 	.login-card .card-body {
@@ -127,4 +128,8 @@ img {
 .login-card-footer-nav a {
 	font-size: 14px;
 	color: #c46711;
+}
+.col-md-3 {
+	margin-top: 20px;
+	width: 200px;
 }

@@ -1,0 +1,58 @@
+/* Styling the nav Bar for the Home Page */
+body {
+	background-color: azure;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.form-control {
+	float: left !important;
+}
+.carousel-caption {
+	top: 200px;
+}
+
+.star-war {
+	color: #fdaf5a;
+}
+
+.underline {
+	width: 230px;
+	height: 2px;
+	background-color: rgb(255, 9, 9);
+}
+
+.bg-light-gray {
+	background-color: rgb(111, 111, 111, 0.09);
+}
+
+.form-inline {
+	float: left;
+}
+
+.btncollapse {
+	float: right !important;
+}
+#right {
+	position: absolute;
+	right: 20px;
+}
+*/ #another-right {
+	position: absolute;
+	right: 400px;
+}
+.nav-link {
+	right: 400px !important;
+}
+.btn {
+	padding-top: 20px;
+	margin-right: 30px;
+}
+.containerbtn {
+	padding-top: 40px;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}

@@ -62,8 +62,9 @@ function renderLoginPage() {
 				passWord === userObj[i].passWord
 			) {
 				body.removeChild(loginForm);
-				// body.style.display = "none";
-				// body.style.position = "hidden";
+				removeDiv.removeChild(body);
+				body.style.background = "none";
+				body.style.position = "absolute";
 				// window.open("index.html", "_self");
 			}
 		}
@@ -72,7 +73,8 @@ function renderLoginPage() {
 }
 
 document.addEventListener("DOMContentLoaded", function (e) {
-	body = document.getElementById("main-container");
+	body = document.getElementById("render-page");
+	removeDiv = document.getElementById("main-container");
 
 	renderLoginPage();
 });

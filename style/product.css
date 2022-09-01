@@ -1,98 +1,104 @@
-body {
+/* body {
   background-color: #000;
 }
 
 .card {
   border: none;
   padding-top: 500px;
-}
+} */
 
 .product {
-  background-color: #eee;
+	background-color: #eee;
+	position: absolute;
+	width: 100%;
+	display: none;
+}
+.cart {
+	display: none;
 }
 
 .brand {
-  font-size: 13px;
+	font-size: 13px;
 }
 
 .act-price {
-  color: red;
-  font-weight: 700;
+	color: red;
+	font-weight: 700;
 }
 
 .dis-price {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 .about {
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .color {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 label.radio {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 label.radio input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	pointer-events: none;
 }
 
 .btn-danger {
-  background-color: #ff0000 !important;
-  border-color: #ff0000 !important;
+	background-color: #ff0000 !important;
+	border-color: #ff0000 !important;
 }
 
 .btn-danger:hover {
-  background-color: #da0606 !important;
-  border-color: #da0606 !important;
+	background-color: #da0606 !important;
+	border-color: #da0606 !important;
 }
 
 .btn-danger:focus {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 .cart i {
-  margin-right: 10px;
+	margin-right: 10px;
 }
 body {
-  background: #eee;
+	background: #eee;
 }
 
 .date {
-  font-size: 11px;
+	font-size: 11px;
 }
 
 .comment-text {
-  font-size: 12px;
+	font-size: 12px;
 }
 
 .fs-12 {
-  font-size: 12px;
+	font-size: 12px;
 }
 
 .shadow-none {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 .name {
-  color: #007bff;
+	color: #007bff;
 }
 
 .cursor:hover {
-  color: blue;
+	color: blue;
 }
 
 .cursor {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .textarea {
-  resize: none;
+	resize: none;
 }

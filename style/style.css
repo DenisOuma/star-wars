@@ -14,6 +14,12 @@ body {
 	background-color: #141f2a;
 	z-index: 999;
 }
+#none {
+	position: absolute;
+}
+.bg-light-gray {
+	background-color: #141f2a;
+}
 /* #login {
 	position: absolute;
 } */

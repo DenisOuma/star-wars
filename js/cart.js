@@ -1,9 +1,9 @@
-let cartList = ''
+let cartList = "";
 function fetchCartItems() {
-  let cart = JSON.parse(localStorage.getItem('cart'))
-  console.log(cart)
-  cart.cartitems.forEach((item) => {
-    cartList += `
+	let cart = JSON.parse(localStorage.getItem("cart"));
+
+	cart.cartitems.forEach((item) => {
+		cartList += `
       <tr>
       <td>
           <figure class="itemside align-items-center">
@@ -37,8 +37,8 @@ function fetchCartItems() {
                   class="fa fa-heart"></i></a> <a href="" class="btn btn-light"
               data-abc="true"> Delete</a> </td>
   </tr>
-      `
-  })
-  document.getElementById('tbody').innerHTML = cartList
+      `;
+	});
+	document.getElementById("tbody").innerHTML = cartList;
 }
-fetchCartItems()
+fetchCartItems();

@@ -38,7 +38,6 @@ function renderLoginPage() {
                         </div>
                     </div>`;
 	body.append(loginForm);
-	console.log(loginForm);
 
 	var userObj = [
 		{
@@ -68,7 +67,6 @@ function renderLoginPage() {
 				// window.open("index.html", "_self");
 			}
 		}
-		alert("submited");
 	});
 }
 

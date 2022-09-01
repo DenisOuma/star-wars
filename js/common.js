@@ -3,15 +3,14 @@ async function searchShip() {
 	myList = "";
 	let searchTerms = document.getElementById("search").value;
 	searchTerms = searchTerms.replace(" ", "%20");
-	console.log(`https://swapi.dev/api/starships/?search=${searchTerms}`);
+
 	try {
 		const res = await fetch(
 			`https://swapi.dev/api/starships/?search=${searchTerms}`
 		);
 		const jsonData = await res.json();
-		console.log(jsonData);
+
 		jsonData.results.forEach((ship) => {
-			console.log(ship.name);
 			myList += `
            
                 <div class="col-md-3">
@@ -28,9 +27,7 @@ async function searchShip() {
                 `;
 		});
 		cardDiv.innerHTML = myList;
-	} catch (err) {
-		console.log(err);
-	}
+	} catch (err) {}
 }
 document.getElementById("btn-search").addEventListener("click", function (e) {
 	e.preventDefault();

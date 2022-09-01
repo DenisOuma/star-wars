@@ -93,9 +93,7 @@ async function getShip(url) {
 		} else {
 			document.getElementById("next").disabled = false;
 		}
-	} catch (error) {
-		console.log(error);
-	}
+	} catch (error) {}
 }
 
 getShip(`https://swapi.dev/api/starships/`);

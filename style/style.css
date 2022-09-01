@@ -48,7 +48,7 @@ body {
 img {
 	vertical-align: middle;
 	border-style: none;
-	height: 500px;
+	height: 50%;
 	object-fit: cover;
 }
 .login-card .card-body {

@@ -17,7 +17,8 @@ Star Wars
 
 ## General info
 
-This project is an online store where users can buy star wars ships, The project is designed like a eccomers website where users are able to login into their own accounts, they can search for a ship, and alsio add to cat.
+The legendary Star Wars film series, which includes both live-action and animated productions, is the foundation of the Star Wars store.
+This project is an online store where users may purchase Star Wars ships. It is styled after an eBay website, allowing users to login and search for ships, browse detail pages for additional ships, and access additional information about specific ships.
 
 ## Log in Details
 

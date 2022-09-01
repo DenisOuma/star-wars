@@ -62,8 +62,8 @@ function renderLoginPage() {
 				passWord === userObj[i].passWord
 			) {
 				body.removeChild(loginForm);
-				body.style.background = "none";
-				body.style.position = "absolute";
+				// body.style.display = "none";
+				// body.style.position = "hidden";
 				// window.open("index.html", "_self");
 			}
 		}
@@ -72,7 +72,7 @@ function renderLoginPage() {
 }
 
 document.addEventListener("DOMContentLoaded", function (e) {
-	body = document.getElementById("render-page");
+	body = document.getElementById("main-container");
 
 	renderLoginPage();
 });

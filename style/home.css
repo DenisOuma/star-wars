@@ -5,6 +5,7 @@ body {
 
 .bg-black {
 	background-color: black;
+	z-index: 888;
 }
 
 .form-control {

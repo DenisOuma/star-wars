@@ -23,7 +23,8 @@ async function getShip(url) {
                         <h5>${ship.name}</h5>
                         <h5>$ ${ship.cost_in_credits}</h5>
                         <h5>length: ${ship.length}</h5>
-                        <button id="details" type="button" onClick="window.open('/productdetail.html?url=${ship.url}')" class="btn btn-success" ><i class="fas fa-cart-plus"></i>Detail</button>
+						<h5>length: ${ship.length}</h5>
+                        <button id="details" type="button" onClick="dialogPage()" class="btn btn-success" ><i class="fas fa-cart-plus"></i>Detail</button>
                         </div>
                         </div>
                         </div>
